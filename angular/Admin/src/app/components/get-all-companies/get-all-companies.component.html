@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>All Companies</title>
+</head>
+<body>
+  <section>
+  <h1>All Companies</h1>
+  <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Password</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        <tr *ngFor= "let c of _companies">
+          <td>{{c.id}}</td>
+          <td>{{c.name}}</td>
+          <td>{{c.password}}</td>
+          <td>{{c.email}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<div class="btnn">
+<button (click) = "getCompanies()" type="submit" > Get Companies </button>
+</div>
+</body>
+</html>

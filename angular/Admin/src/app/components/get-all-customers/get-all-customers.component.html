@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>All Customers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+</head>
+<body>
+  <section>
+  <h1>All Customers</h1>
+  <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Password</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div class="tbl-content">
+    <table cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        <tr *ngFor= "let c of _customers">
+          <td>{{c.id}}</td>
+          <td>{{c.name}}</td>
+          <td>{{c.password}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<div class="btnn">
+<button (click) = "getCustomers()" type="submit" > Get Customers </button>
+</div>
+</body>
+</html>
