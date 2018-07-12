@@ -1,8 +1,0 @@
-com.dor.coupons.system
-com.dor.coupons.system.core
-com.dor.coupons.system.dao
-com.dor.coupons.system.dbdao
-com.dor.coupons.system.entities
-com.dor.coupons.system.exceptions
-com.dor.coupons.system.facades
-com.dor.coupons.system.tables
