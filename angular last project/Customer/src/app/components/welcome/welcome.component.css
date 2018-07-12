@@ -1,0 +1,211 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+
+body {
+    background: url(../../../assets/welcome/welcome-customer.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	padding:0;
+font-family: 'Cuprum', sans-serif;
+	letter-spacing:1px;
+}	
+h1.header-w3ls {
+    text-align: center;
+    font-weight:600;
+    text-transform: uppercase;
+    color: gold;
+    letter-spacing: 11px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+}
+@media(max-width:1920px){
+	h1.header-w3ls {
+    padding-top: 53px;
+	font-size: 71px;
+}
+.appointment-w3 {
+    width: 45%;
+    margin: 39px auto 50px;
+}
+}
+@media(max-width:1600px){
+	h1.header-w3ls {
+    font-size: 40px;
+	padding-top: 30px;
+}
+.appointment-w3 {
+    width: 42%; 
+	margin: 30px auto 30px;
+}
+}
+@media(max-width:991px){
+    h1.header-w3ls {
+        font-size: 50px;
+    }	
+    .appointment-w3 {
+        width: 66%;
+    }
+}
+@media(max-width:800px){
+    h1.header-w3ls {
+        font-size: 47px;
+    }
+    .appointment-w3 {
+        width: 71%;
+     }	
+}
+@media(max-width:768px){
+    .appointment-w3 {
+        width: 73%;
+}	
+    h1.header-w3ls {
+                padding-top: 35px;
+            }
+            }
+            @media(max-width:767px){
+            h1.header-w3ls {
+                letter-spacing: 9px;
+                font-size: 45px;
+            }	
+            }
+            @media(max-width:667px){
+                h1.header-w3ls {
+                    letter-spacing: 7px;	
+                }
+                select.form-control,
+                .form-left-w3l input[type="email"],.form-left-w3l input[type="password"], .form-control-w3l textarea, 
+                .form-right-w3ls input[type="date"], .form-add-w3ls input[type="text"] {
+                 margin: 0px 0px 9px;
+                    }
+                textarea {
+                    height: 109px;
+                    }
+                    .copy p {
+                    font-size: 16px
+                }
+                }
+                @media(max-width:640px){
+                    h1.header-w3ls {
+                        letter-spacing: 5px;
+                    }
+                    select.form-control, .form-left-w3l input[type="text"],
+                     .form-right-w3ls input[type="text"], .form-left-w3l input[type="email"],.form-left-w3l input[type="password"],
+                     .form-control-w3l textarea, .form-right-w3ls input[type="date"], 
+                     .form-add-w3ls input[type="text"] {
+                        padding: .6em 0em .8em;
+                    }
+                    .copy {
+                        padding: 0 24px 30px;
+                        line-height: 29px;
+                    }	
+                    }
+                    @media(max-width:600px){
+                        h1.header-w3ls {
+                        letter-spacing: 4px;
+                    }
+                    .appointment-w3 {
+                        width: 75%;
+                    }
+                    }
+                    @media(max-width:568px){
+                        h1.header-w3ls {
+                        letter-spacing: 3px;
+                    }
+                    .appointment-w3 {
+                        width: 78%;
+                        padding: 40px 29px;
+                    }
+                    }
+                    @media(max-width:480px){
+                        .form-right-w3ls input[type="text"].top-up,
+                        .form-right-w3ls input[type="password"].top-up {
+                        padding-top:.6em;}
+                        .main{-webkit-flex-direction: column;
+                            flex-direction:column;}
+                        select.form-control {
+                            height: 41px;
+                        }	
+                        h1.header-w3ls {
+                            letter-spacing: 1px;
+                            font-size: 41px;
+                        }
+                        .appointment-w3 {
+                            width: 80%;
+                            padding: 33px 21px;
+                        }
+                        textarea {
+                            height: 100px;
+                        }
+                        select.form-control, 
+                        .form-left-w3l input[type="text"], 
+                        .form-right-w3ls input[type="text"],
+                        .form-left-w3l input[type="email"], 
+                        .form-left-w3l input[type="password"],
+                        .form-control-w3l textarea, 
+                        .form-right-w3ls input[type="date"],
+                        .form-add-w3ls input[type="text"] {
+                            font-size: 15px;	
+                        }
+                        .copy p {
+                            letter-spacing: 1px;
+                            font-size: 15px;
+                        }
+                        }
+                        @media(max-width:440px){
+                            h1.header-w3ls {
+                                line-height: 50px;
+                                padding: 20px 11px 0px
+                            }	
+                            .appointment-w3 {
+                                    padding: 33px 19px;
+                                margin: 19px auto 27px;
+                            }
+                            }
+                            @media(max-width:414px){
+                            .copy {
+                                padding: 0 24px 25px;
+                            }	
+                            h1.header-w3ls {
+                                font-size: 38px;
+                            }
+                            input[type="submit"] {
+                                margin-top: 26px;
+                            }
+                            
+                            }
+                            @media(max-width:320px){
+                                h1.header-w3ls {
+                                    font-size: 37px;
+                                    padding: 20px 12px 0px;	
+                                }
+                                .copy p {
+                                    letter-spacing: .5px;
+                                }
+                                }
+

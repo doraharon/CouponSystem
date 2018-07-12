@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Update Customer</title>
+</head>
+<body>
+	<h1 class="header-w3ls">
+		Update Customer</h1>
+	<div class="appointment-w3">
+		<form ngNativeValidate>
+			<div class="main">
+				<div class="form-left-w3l">
+					<input type="number" class="top-up" name="id" placeholder="Customer id" [(ngModel)] = "selectedId" required="">
+				</div>
+				<button (click) = "getCustomerById()" type="submit" >  Get Customer by id</button>
+			</div>
+		</form>
+	</div>
+	<div class="appointment-w3">
+		<form ngNativeValidate>
+			<div class="main">
+				<div class="form-left-w3l">
+					<input type="text" class="top-up" name="name" placeholder="Customer name" [(ngModel)] = "selectedName" required="">
+				</div>
+				<button (click) = "getCustomerByName()" type="submit" >  Get Customer by name</button>
+			</div>
+		</form>
+	</div>
+	<div class="tbl-header">
+		<table cellpadding="0" cellspacing="0" border="0">
+		  <thead>
+			<tr>
+			  <th>Id</th>
+			  <th>Name</th>
+				<th> Password</th>
+				<th></th>
+			</tr>
+		  </thead>
+		</table>
+	  </div>
+	  <div class="tbl-content">
+		<table cellpadding="0" cellspacing="0" border="0">
+		  <tbody>
+			  <td>{{customer.id}}</td>
+			  <td>{{customer.name}}</td>
+				<td>
+						<div class="form-left-w3l">
+							<input type="text" class="top-up" name="password"  [(ngModel)] = "customer.password" required="">
+						</div>
+				</td>
+				<td><button (click) = "updateCustomer()" type="button" > Update  </button></td>
+		  </tbody>
+		</table>
+    </div>
+</body>
+</html>

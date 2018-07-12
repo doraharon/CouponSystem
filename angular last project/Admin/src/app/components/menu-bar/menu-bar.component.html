@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>Menu</title>
+    </head>
+    <body>
+       <div class="container">
+            <ul id="nav">
+                <li><a href="">Home</a></li>
+                <li><a class="hsubs">Create</a>
+                    <ul class="subs">
+                        <li><a routerLink='/company/create'>Create Company</a></li>
+                        <li><a routerLink='/customer/create'>Create Customer</a></li>
+                    </ul>
+                </li>
+                <li><a class="hsubs">Update</a>
+                    <ul class="subs">
+                        <li><a routerLink='/company/update'>Update Company</a></li>
+                        <li><a routerLink='/customer/update'>Update Customer</a></li>
+                    </ul>
+                </li>
+                <li><a class="hsubs">Remove</a>
+                    <ul class="subs">
+                        <li><a routerLink='/company/remove'>Remove Company</a></li>
+                        <li><a routerLink='/customer/remove'>Remove Customer</a></li>
+                    </ul>
+                </li>
+                <li><a class="hsubs">Get Companies</a>
+                    <ul class="subs">
+                        <li><a routerLink='/company/get'>Get Company</a></li>
+                        <li><a routerLink='/company/get/all'>All Companies</a></li>
+                    </ul>
+                </li>
+                <li><a class="hsubs">Get Customers</a>
+                    <ul class="subs">
+                        <li><a routerLink='/customer/get'>Get Customer</a></li>
+                        <li><a routerLink='/customer/get/all'>All Customers</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://localhost:8080/login.html">Disconnect</a></li>
+                <div id="lavalamp"></div>
+            </ul>
+
+        </div>
+    </body>
+</html>

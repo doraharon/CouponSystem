@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 11px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+}
+  table{
+    width:100%;
+    table-layout: fixed;
+  }
+  .tbl-header{
+    background-color: rgba(255,255,255,0.3);
+   }
+  .tbl-content{
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+  th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+  }
+  .tbl-content{
+    background-color: rgba(255,255,255,0.3);
+   }
+  td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 20px;
+    color:black;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }
+  
+  
+  /* demo styles */
+  
+  body {
+    background: url(../../../assets/table/all-coupons.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+.btnn{
+	display:block;
+   margin:0;
+	text-align:center;
+	position:relative;
+    }
+    button[type="submit"]:hover {
+        color: #fff;
+        background: #000;
+    }
+button[type="submit"] {
+    border-radius: 50px;
+text-transform: uppercase;
+   background: #FFC107;
+color: #000000;
+padding:11px 15px;
+border: none;
+font-size: 17px;
+outline: none;
+width: 50%;
+letter-spacing: 1px;
+margin-top: 35px;
+cursor: pointer;
+
+}
+img{
+  margin-top: 0.1cm;
+  margin-bottom: 0.1cm;
+  width: 150px;
+  height: 90px;
+
+}
+

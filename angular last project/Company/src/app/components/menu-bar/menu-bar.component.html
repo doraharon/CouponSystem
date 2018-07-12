@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>Menu</title>
+    </head>
+    <body>
+       <div class="container">
+            <ul id="nav">
+                <li><a href="">Home</a></li>
+                <li><a routerLink='coupon/create'>Create Coupon</a></li>
+                <li><a routerLink='coupon/update'>Update coupon</a></li>
+                <li><a routerLink='coupon/remove'>Remove coupon</a></li>
+                <li><a class="hsubs">Get Coupons</a>
+                    <ul class="subs">
+                        <li><a routerLink='/coupon/get'>Get Coupon</a></li>
+                        <li><a routerLink='/coupon/get/all'>All Coupons</a></li>
+                        <li><a routerLink='/coupon/get/by'>Search Coupons</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://localhost:8080/login.html">Disconnect</a></li>
+                <div id="lavalamp"></div>
+            </ul>
+        </div>
+    </body>
+</html>
